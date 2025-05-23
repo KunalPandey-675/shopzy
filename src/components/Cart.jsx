@@ -14,9 +14,9 @@ const Cart = () => {
     <>
       <section className="bg-white py-8 antialiased md:py-16">
         <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
-          <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
+          {/* <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">
             Shopping Cart
-          </h2>
+          </h2> */}
           
           {finalItems.length === 0 ? (
             <div className="mt-10 flex flex-col items-center justify-center py-12">
