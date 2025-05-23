@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+@theme{
+  --font-bebas: 'Bebas Neue', cursive;
+}
+ @plugin "daisyui" {
+   themes: light --default;
+ }
+
+.appContent{
+  margin-top: 25px;
+}
